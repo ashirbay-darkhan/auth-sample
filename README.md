@@ -6,41 +6,11 @@
 ### Demo
 https://auth-sample-5bl3.onrender.com/
 
-### Usage
+### Features
 
-* Create a React app with Redux for state management
-* Create a Node.js server with Express, MongoDB database with Mongoose
-* Create a user registration, login and protected routes
-* Create a middleware to verify a JSON web token
-* Create a React component to register and login a user
-
-### Install Dependencies (Frontend)
-
-```
-cd frontend
-npm i
-```
-
-### Install Dependencies (Backend)
-
-```
-npm i
-```
-
-### Run
-
-```
-# Run frontend (:3000) & backend (:5000)
-npm run dev
-
-# Run backend only
-npm run server
-```
-
-### Build & Deploy
-
-```
-# Create frontend prod build
-cd frontend
-npm run build
-```
+- Login and Register with email and password
+- Login with Google
+- Protected routes, Profile page, Update profile
+- Logout
+- Responsive design
+- Middleware to verify a JSON web token and protect routes from unauthorized users
